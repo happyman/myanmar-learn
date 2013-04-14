@@ -1,0 +1,9 @@
+learn to type use 
+https://code.google.com/p/ibus-myanmar/
+
+to print out the keyboard layout to "see"
+
+run
+php kbd.php > kk.html
+
+and firefox kk.html
