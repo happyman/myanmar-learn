@@ -1,0 +1,21 @@
+copy these fonts into your /usr/share/fonts/truetype 
+fc-cache
+
+fc-list you will see
+
+/usr/share/fonts/truetype/Tharlon-Regular.ttf: TharLon:style=Regular
+/usr/share/fonts/tryetype/mm3-multi-os.ttf: Myanmar3:style=Standard,Regular,Normal,Standaard,Navadno
+/usr/share/fonts/truetype/Zawgyi-One-Burmese-Font-v3-dec4-2007.ttf: Zawgyi\-One:style=Normal,obyčejné,Standard,Κανονικά,Regular,Normaali,Normál,Normale,Standaard,Normalny,Обычный,Normálne,Navadno,thường,Arrunta
+
+
+or use web fonts when creating web pages
+http://mywebfont.appspot.com/
+<link href='http://mywebfont.appspot.com/css?font=zawgyi' rel='stylesheet' type='text/css'/>
+
+@font-face{
+	font-family: Zawgyi-One;
+	src: url(http://test.my-mm.org/font/Zawgyi-One.ttf);
+}
+*{
+	font-family:Zawgyi-One,Verdana,Arial,Sans-Serif,Times !important;
+}
